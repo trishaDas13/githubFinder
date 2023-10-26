@@ -12,6 +12,7 @@ body{
     align-items: center;
     padding: 2rem;
     font-family: 'PT Serif', serif;
+    background-color: coral;
 }
 .dark{
     background-color: rgb(40,40,40);
