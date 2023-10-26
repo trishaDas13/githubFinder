@@ -23,7 +23,7 @@ function createProfile(input){
                         <a href="${res.html_url}">@${res.login}</a>
                     </div>
                 </div>
-                <div class="date"> Joined 2/22/2023</div>
+                <div class="date"> joined  ${new Date(res.created_at).toLocaleDateString('en-US')}</div>
             </div>
             <p style=" margin-top: 1rem;">${res.bio}</p>
             <div class="misc">
